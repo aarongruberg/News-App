@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+</head>
+<body>
+    <h2>Featured</h2>
+    <p> <%=featured[random_element].title%> </p>
+    <p> <%=featured[random_element].author%> </p>
+    <p> <%=featured[random_element].description%> </p>
+    <img src="<%=featured[random_element].urlToImage%>" alt="imageurl" width="200" height="150">
+    <p>
+    <a href="<%=featured[random_element].url%>"> <%=featured[random_element].url%> </a>
+    </p>
+
+</body>
+</html>
